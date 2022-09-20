@@ -1,7 +1,7 @@
 # Find My Lyrics
 A Chrome extension that finds songs matching highlighted text.
 
-![preview](preview.png)
+![preview](preview.png | height=200)
 
 ## How to Use
 Make a text selection and use the "Find selected lyrics" option in the right click context menu.
