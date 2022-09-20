@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+}
+  
+h1 {
+    text-align: center;
+    color: navy;
+}
+
+h4 {
+    text-align: center;
+    white-space: pre-line;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

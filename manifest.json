@@ -1,0 +1,17 @@
+{
+    "name": "Find My Lyrics",
+    "description": "Find songs matching highlighted text",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "contextMenus",
+      "windows",
+      "storage"
+    ],
+    "background": {
+        "service_worker": "get_songs.js"
+    },
+    "host_permissions": [
+      "http://api.genius.com/search?q=*"
+    ]
+}
