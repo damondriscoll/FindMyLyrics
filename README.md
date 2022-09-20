@@ -1,5 +1,6 @@
 # Find My Lyrics
 A Chrome extension that finds songs matching highlighted text.
+The lyrics are found using the Genius API.
 
 <img src="preview.png" width="350">
 
