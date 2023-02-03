@@ -1,5 +1,7 @@
+const ACCESS_TOKEN = '';
+
 chrome.storage.local.get(['selection'], async function (result) {
-    fetch("http://api.genius.com/search?q=" + encodeURIComponent(result.selection) + "&access_token=WwQlf4uuAU49V_QwPagVsJgB3IhMfjRdQi5RDj2_0Ph0F8usME2v3gQwD_msVBxy")
+    fetch("http://api.genius.com/search?q=" + encodeURIComponent(result.selection) + "&access_token=" + ACCESS_TOKEN)
     .then(response => response.json())
     .then(data => {
         console.log(data);
